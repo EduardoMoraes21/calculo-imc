@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #03152e;
+    color: aliceblue;
+}
+
+main {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.altura, .peso , .calc {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, label {
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 40px;
+    cursor: pointer;
+    background-color: #6f00ff;
+    color: aliceblue;
+}
+
+@media (max-width: 500px) {
+    body, input, button {
+        font-size: 25px;
+    }
+}
+
